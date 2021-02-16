@@ -94,6 +94,9 @@ CapsLock & Left::MoveCurrentWindowToLeftDesktop()
 ; ^!a::switchDesktopToLeft()
 ; ^!tab::switchDesktopToLastOpened()
 
+^!.::switchDesktopToRight()
+^!,::switchDesktopToLeft()
+
 ; ^!c::createVirtualDesktop()
 ; ^!d::deleteVirtualDesktop()
 
